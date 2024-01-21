@@ -2,9 +2,9 @@ package beans;
 
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-//import com.concentrix.spring_transaction_demo.config.BeanConfig;
-//import com.concentrix.spring_transaction_demo.model.Employee;
-//import com.concentrix.spring_transaction_demo.service.EmpService;
+import com.concentrix.spring_transaction_demo.config.BeanConfig;
+import com.concentrix.spring_transaction_demo.model.Employee;
+import com.concentrix.spring_transaction_demo.service.EmpService;
 
 public class ConfigBeans 
 {
