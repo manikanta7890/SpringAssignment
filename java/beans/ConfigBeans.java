@@ -8,7 +8,7 @@ import com.concentrix.spring_transaction_demo.service.EmpService;
 
 public class ConfigBeans 
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
         AnnotationConfigApplicationContext context =
         		new AnnotationConfigApplicationContext(BeanConfig.class);
@@ -20,8 +20,8 @@ public class ConfigBeans
         Employee em = new Employee(101,"Deva",30,"HR",37457);
         Employee emp1 = new Employee(102,"Rahul",32,"Trainer",36453);
         service.save(emp);
-        service.upd();
-        service.del(108);
+        service.update();
+        service.delete(101);
         try {
           service.save(emp);
         }catch(Exception e) {
