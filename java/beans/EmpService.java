@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 
-
 @Service
 public class EmpService {
 
@@ -27,11 +26,11 @@ public class EmpService {
 			System.out.println(ex.getMessage());
 		}
 	}
-	public void upd() {
-		repo.upd();
+	public void update() {
+		repo.update();
 	}
-	public void del(int eid) {
-		repo.del(eid);
+	public void delete(int eid) {
+		repo.delete(eid);
 	}
 }
 
